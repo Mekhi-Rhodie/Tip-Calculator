@@ -2,8 +2,8 @@ $black: #000000;
 $jet: #111214;
 $gray: #777777;
 $silver: #bababa;
-$white: #f4f4f4;
-$blue: #007bff;
+$white: #D8D8D8;
+$blue: #17a2b8;
 
 body {
   background-color: $black;
@@ -20,6 +20,7 @@ body {
   text: {
     align: center;
     decoration: underline;
+    shadow: 1px 1px 5px $jet;
   }
   font: {
     weight: bold;
@@ -28,7 +29,30 @@ body {
   }
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
-  //box-shadow: inset 1px 1px 8px $jet;
+  box-shadow: inset 1px 1px 8px $jet;
   color: $white;
   background-color: $blue;
+  padding: 1.5%;
+}
+
+.form-head {
+  font: {
+    size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  color: $white;
+}
+
+#output {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.outputs {
+  text-align: center;
+}
+
+form{
+    padding-left: 20px;
+    padding-right: 20px;
 }
