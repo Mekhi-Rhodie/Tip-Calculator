@@ -6,7 +6,16 @@ body {
   background-color: #111214;
   -webkit-box-shadow: 1px 1px 8px #777777;
           box-shadow: 1px 1px 8px #777777;
-  padding: 10%;
   border-radius: 7px;
+}
+
+#head {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+  color: #f4f4f4;
+  background-color: #007bff;
 }
 /*# sourceMappingURL=index.css.map */

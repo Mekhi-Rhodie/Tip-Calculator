@@ -1,16 +1,31 @@
 $black: #000000;
 $jet: #111214;
 $gray: #777777;
-$silver: #BABABA;
-$white: #F4F4F4;
+$silver: #bababa;
+$white: #f4f4f4;
+$blue: #007bff;
 
-body{
-    background-color: $black;
+body {
+  background-color: $black;
 }
 
-#calc{
-    background-color: $jet;
-    box-shadow: 1px 1px 8px $gray;
-    padding: 10%;
-    border-radius: 7px;
+#calc {
+  background-color: $jet;
+  box-shadow: 1px 1px 8px $gray;
+  border-radius: 7px;
+}
+
+#head {
+  text: {
+    align: center;
+    decoration: underline;
+  }
+  font: {
+    weight: bold;
+    family: helvetica;
+    size: 20px;
+  }
+
+  color: $white;
+  background-color: $blue;
 }
