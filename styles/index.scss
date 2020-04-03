@@ -7,3 +7,10 @@ $white: #F4F4F4;
 body{
     background-color: $black;
 }
+
+#calc{
+    background-color: $jet;
+    box-shadow: 1px 1px 8px $gray;
+    padding: 10%;
+    border-radius: 7px;
+}

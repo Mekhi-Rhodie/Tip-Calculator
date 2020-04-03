@@ -1,4 +1,12 @@
 body {
   background-color: #000000;
 }
+
+#calc {
+  background-color: #111214;
+  -webkit-box-shadow: 1px 1px 8px #777777;
+          box-shadow: 1px 1px 8px #777777;
+  padding: 10%;
+  border-radius: 7px;
+}
 /*# sourceMappingURL=index.css.map */
