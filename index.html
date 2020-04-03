@@ -25,11 +25,12 @@
           <h1 id="head">Tip Calculator</h1>
           <form>
             <div id="input">
+              <label class="form-head">Bill:</label>
+              <br />
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
                   <span class="input-group-text">$</span>
                 </div>
-                <label class="form-head"></label><br>
                 <input
                   type="text"
                   id="bill"
@@ -37,63 +38,67 @@
                   aria-label="Bill"
                   placeholder="Bill"
                 />
+              </div>
+              <label class="form-head">Party Size:</label>
+              <br />
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Party #</span>
+                </div>
+
+                <input
+                  type="number"
+                  min="1"
+                  max="12"
+                  id="party"
+                  class="form-control inputs"
+                  aria-label="Party Number"
+                  placeholder="0"
+                />
+              </div>
+
+              <label class="form-head">Tip Percentage:</label><br />
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  id="tip-percent"
+                  class="form-control inputs"
+                  aria-label="Tip Percentage"
+                  placeholder="Tip"
+                />
                 <div class="input-group-append">
-                  <span class="input-group-text">.00</span>
-                </div>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">Party #</span>
-                  </div>
-                  <label class="form-head"></label><br>
-                  <input
-                    type="number"
-                    min="1"
-                    max="12"
-                    id="party"
-                    class="form-control inputs"
-                    aria-label="Party Number"
-                    placeholder="0"
-                  />
-                </div>
-                <div class="input-group mb-3">
-                    <label class="form-head"></label><br>
-                  <input
-                    type="text"
-                    id="percent"
-                    class="form-control inputs"
-                    aria-label="Tip Percentage"
-                    placeholder="Tip"
-                  />
-                  <div class="input-group-append">
-                    <span class="input-group-text">%</span>
-                  </div>
+                  <span class="input-group-text">%</span>
                 </div>
               </div>
             </div>
             <div id="output">
               <div class="form-group">
-                <label class="form-head"></label><br>
+                <label class="form-head">Tip Amount:</label><br />
                 <output
-                  class="form-control"
+                  class="form-control outputs"
                   id="tip-amount"
                   aria-describedby="Tip Amount"
                   placeholder="Tip Amount"
                 />
               </div>
               <div class="form-group">
-                <label class="form-head"></label><br>
+                <label class="form-head">Total:</label><br />
                 <output
-                  class="form-control"
+                  class="form-control outputs"
                   id="tot"
                   aria-describedby="Total"
                   placeholder="Total"
                 />
               </div>
             </div>
-            <button type="submit" id="calculate" class="btn btn-primary">
-              Calculate!
-            </button>
           </form>
+          <button
+            type="submit"
+            id="calculate"
+            class="btn btn-primary btn-lg btn-block"
+          >
+            Calculate!
+          </button>
         </div>
       </div>
     </div>
