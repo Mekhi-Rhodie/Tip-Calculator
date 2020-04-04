@@ -26,6 +26,10 @@ body {
   padding: 1.5%;
 }
 
+strong {
+  text-shadow: 1px 1px 5px #111214;
+}
+
 .form-head {
   font-size: 15px;
   font-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
